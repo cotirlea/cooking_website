@@ -1,0 +1,39 @@
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(14, 14, 14, 0.9);
+  z-index: 999;
+  flex-direction: column;
+}
+
+.spinner {
+    outline: rgba(53, 57, 53, 0.3);
+  border-top: 4px solid rgb(215, 231, 231);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+p {
+  font-family: 'CustomFont';
+  color:rgb(215, 231, 231);;
+  margin-top: 20px;
+  font-size: 18px;
+}

@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.da345093.js",
+    "static/js/439.64d4776c.chunk.js": "/static/js/439.64d4776c.chunk.js",
+    "static/js/565.a2b31505.js": "/static/js/565.a2b31505.js",
+    "static/media/submit.jpg": "/static/media/submit.c50a9ee496f9bc18ffcf.jpg",
+    "static/media/title.jpg": "/static/media/title.a88a0e21dd398a393c39.jpg",
+    "static/media/loging.jpg": "/static/media/loging.ddde63541d07076f02eb.jpg",
+    "static/media/ingredients.jpg": "/static/media/ingredients.3ec853c32c854b454f07.jpg",
+    "static/media/steps.jpg": "/static/media/steps.701f86b8d6dbafa21c00.jpg",
+    "static/media/background_logIn.jpg": "/static/media/background_logIn.0f94d3d19f44b1b0df86.jpg",
+    "static/media/type.jpg": "/static/media/type.937a2061cfd2f6b071b5.jpg",
+    "static/media/null.jpg": "/static/media/null.be367eeb94ad0a2acc4f.jpg",
+    "index.html": "/index.html",
+    "static/media/Reciepe.scss": "/static/media/Reciepe.482f7897b47942a1d67d.scss",
+    "static/media/Error.scss": "/static/media/Error.676a036da3ef31507789.scss",
+    "static/media/LogIn.scss": "/static/media/LogIn.05f2180a400171a8e10d.scss",
+    "static/media/GuideList.scss": "/static/media/GuideList.1218d286be12c0eebfbe.scss",
+    "static/media/Header.scss": "/static/media/Header.65d8ce4c4055a267b232.scss",
+    "static/media/ReciepeCard.scss": "/static/media/ReciepeCard.856da7591fa6e5d1113d.scss",
+    "static/media/CheckBox.scss": "/static/media/CheckBox.e651b37359cd0873d84d.scss",
+    "static/media/Main.scss": "/static/media/Main.af83116ea5c4b51664a4.scss",
+    "static/media/ItemList.scss": "/static/media/ItemList.8acede0ac4696294b9bd.scss",
+    "static/media/Loading.scss": "/static/media/Loading.6259a314c2b6a227017d.scss",
+    "static/media/SearchResult.scss": "/static/media/SearchResult.aa4611c110196a1ab81e.scss",
+    "static/media/SearchBar.scss": "/static/media/SearchBar.857bb339669e79a7070f.scss",
+    "static/media/Search.scss": "/static/media/Search.fd513dd6d81ad8438b3c.scss",
+    "serve.json": "/serve.json",
+    "static/media/SearchList.scss": "/static/media/SearchList.9daeba06ea778e273ad5.scss",
+    "manifest.json": "/manifest.json",
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.da345093.js.map": "/static/js/main.da345093.js.map",
+    "439.64d4776c.chunk.js.map": "/static/js/439.64d4776c.chunk.js.map",
+    "565.a2b31505.js.map": "/static/js/565.a2b31505.js.map"
+  },
+  "entrypoints": [
+    "static/js/565.a2b31505.js",
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.da345093.js"
+  ]
+}

@@ -1,0 +1,12 @@
+@import '../../Utils/GeneralStyles.scss';
+
+.container_search {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: auto;
+  width: auto;
+  margin-left: 10px;
+}

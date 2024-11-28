@@ -1,0 +1,40 @@
+@import '../../../Utils/GeneralStyles.scss';
+
+
+.text_item {
+  margin-right: 1vw;
+  font-size: 1.5vw;
+  margin-bottom: 1.5vh;
+  margin-top: 2vh;
+}
+
+.comparatie {
+  display: flex;
+  flex-direction: column;
+}
+
+.button_item {
+  @extend .button;
+  font-size: 3vh;
+  width: 25%;
+  height: 80%;
+  margin-left: 1vw;
+}
+
+.list_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50vw;
+  margin: 5px;
+  transition: background-color 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+  opacity: 1;
+  &.fade-out {
+    opacity: 0;
+    transform: translate(-10px);
+  }
+  &.fade-in {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

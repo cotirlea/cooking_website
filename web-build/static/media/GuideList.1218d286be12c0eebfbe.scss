@@ -1,0 +1,62 @@
+@import '../../../Utils/GeneralStyles.scss';
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.list_container {
+  @extend .container;
+  display: flex;
+  width: 75%;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: auto;
+  align-items: center;
+}
+
+.list_background_image {
+  @extend .image;
+}
+
+.title_list {
+  @extend .title_text;
+  font-size: 45px;
+}
+
+.body_container_list {
+  @extend .body_container;
+  width: auto;
+  overflow: auto;
+  justify-content: flex-start;
+}
+
+.button_list {
+  @extend .button;
+  height: 10vh;
+  font-size: 30px;
+  width: 30%;
+}
+
+.button_container_list {
+   display: flex;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2vh;
+    transition: background-color 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+      opacity: 1;
+    
+      &.fade-out {
+        opacity: 0;
+        transform: translateX(0px);
+      }
+    
+      &.fade-in {
+        opacity: 1;
+        transform: translateX(-10px);
+      }
+}

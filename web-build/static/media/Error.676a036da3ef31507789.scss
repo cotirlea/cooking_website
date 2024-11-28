@@ -1,0 +1,71 @@
+.error_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(14, 14, 14, 0.9);
+  z-index: 999;
+  flex-direction: column;
+}
+
+.error_text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 20%;
+}
+
+.error_list{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+}
+
+.error_headline {
+  font-family: 'CustomFont';
+  color: rgb(215, 231, 231);
+  font-size: 8vw;
+  margin: 0;
+  text-align: center;  
+}
+
+.error_text {
+  font-family: 'CustomFont';
+  color: rgb(215, 231, 231);
+  font-size: 2vw;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+
+.error_button {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border-width: 1px;
+  border: solid #353935;
+  color: rgb(215, 231, 231);
+  font-size: 3.5vw;
+  background-color: transparent;
+  font-family: 'CustomFont';
+  transition: background-color 0.5s ease;
+
+  &:hover {
+    background-color: rgb(53, 57, 53);
+  }
+}
+
+.error_button_container {
+  width: 30%;
+  height: 20%;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,84 @@
+@import '../../../Utils/GeneralStyles.scss';
+
+body,
+html {
+  background-color: rgb(14, 14, 14)
+}
+
+.reciepe_container{@extend .container;
+  flex-direction: row;
+  transition: opacity 0.75s ease, transform 0.5s ease;
+    &.fade-out {
+      opacity: 0;
+      transform: translate(-10px);
+    }
+  
+    &.fade-in {
+      opacity: 1;
+      transform: translate(0);
+    }
+}
+
+.reciepe_button{@extend .button;}
+
+.reciepe_button_container{
+  padding: 2vw;
+  width: 15%;
+  height: 15%;
+  margin-bottom: 20px;
+  z-index: 100;
+
+}
+
+.reciepe_input_container {
+  display: flex;
+  height: auto;
+  width: 40%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: auto;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+
+   &::-webkit-scrollbar {
+    display: none; /* For Webkit-based browsers */
+  }
+  scrollbar-width: none; /* For Firefox */
+}
+
+.reciepe_image{@extend .image;width: 100%;object-fit: cover}
+.reciepe_body_container{
+  @extend .container;
+    display: flex;
+    width: 75%;
+    height: 100vh;
+    align-items: center;
+}
+
+.reciepe_image_button{
+  width: 30%;
+  height: 20%;
+  margin-top: 2vh;
+}
+
+.reciepe_image_container{
+  width: 80%;
+  height: 80%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.reciepe_body{@extend .body_container;}
+
+.reciepe_title{@extend .title_text; font-size: 10vh;}
+
+.reciepe_checkbox{
+  display: flex;
+  align-items:start;
+  justify-content: center;
+  height: auto;
+  flex-direction: column;
+}

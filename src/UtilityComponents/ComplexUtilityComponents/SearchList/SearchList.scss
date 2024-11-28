@@ -1,0 +1,13 @@
+.search-results {
+  position: absolute;
+  width: 70%;
+}
+
+.search-results div {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.search-results div:hover {
+  background-color: #202020;
+}

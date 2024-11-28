@@ -1,0 +1,35 @@
+.checkbox_container{
+  height: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox_input {
+  appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  border: solid rgb(215, 231, 231);;
+  background-color: transparent;
+  width: 3vh;
+  height: 3vh;
+  border-radius: 10px;
+  transition: background-color 0.5s ease;
+  &:checked {
+    background-color: rgb(215, 231, 231);
+  }
+  &:hover {
+    background-color: rgb(215, 231, 231,0.5);
+  }
+}
+
+.checkbox_text{
+    font-family: 'CustomFont';
+    color: rgb(215, 231, 231);
+    font-size: 5vh;
+    margin-bottom: 3.5vh;
+    margin-left: 1vw;
+}

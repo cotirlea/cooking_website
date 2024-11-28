@@ -1,0 +1,26 @@
+.search_result_container {
+  display: flex;
+  height: 25px;
+  width: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #353935;
+  background-color: #000
+}
+
+.search_result_image {
+  height: 25px;
+  display: block;
+  width: 25px;
+}
+
+.search_result_name {
+  color: rgb(215, 231, 231);
+  font-size: 20px;
+}
+
+.search_result_empty {
+  color: #696969;
+  font-size: 20px;
+}

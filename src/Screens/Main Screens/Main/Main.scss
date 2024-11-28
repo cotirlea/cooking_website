@@ -1,0 +1,36 @@
+@import '../../../Utils/GeneralStyles.scss';
+
+.main_container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(14, 14, 14);
+  overflow: auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main_empty {
+  @extend .title_text;
+  font-size: 10vh;
+}
+
+.main_body_container {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(14, 14, 14, 0.8);
+  overflow-y: scroll;
+  margin-bottom: 2vh;
+  scrollbar-width: none;
+}
+
+.main_body_container::-webkit-scrollbar {
+  display: none;
+}
